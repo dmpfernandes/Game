@@ -1,0 +1,37 @@
+- Criar Menu Principal
+
+
+
+- Criar "Maquina de Estados" no loop do GAME para fazer transposicao entre niveis e menus.
+
+
+
+- Tamanho das pecas tem que ser em percentagem com o ecran
+
+
+
+
+- Optimizar o código e torná-lo abstracto
+
+
+
+- Criar Niveis
+
+	.Nivel_1 - FEITO
+	.Nivel_2 - FEITO
+		.
+		.
+		.
+	.Nivel_50 -
+
+
+
+
+- Para gerar signed packages do jogo é so ir a File > Extract signed package e ja vem com a tralha toda para ir para a store segundo o que percebi. Precisamos de entrar deep no assunto e começar a perceber o que
+
+
+
+
+- Ideia: aparecer um "certo" ou um "errado", em verde ou vermelho, respectivamente
+caso se ganhe ou perca, em imagem ou desenhado, pisca e desaparece
+
