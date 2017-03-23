@@ -16,7 +16,7 @@ class Ball
   {
     stroke(0);
     fill(0);
-    ellipse(pos.x, pos.y, 20, 20);
+    ellipse(pos.x, pos.y, displayWidth * 0.0185185, displayWidth * 0.0185185);
   
   }
   
@@ -24,7 +24,7 @@ class Ball
   void applyForce()
   {
     
-    pos.add(new PVector (0,3));
+    pos.add(new PVector (0,5));
     
   }
   

@@ -3,7 +3,7 @@ class Goal
   
   PVector pos;
   boolean semaforo;
-  int ball_width;
+  float ball_width;
 
   Goal(PVector pos)
   {
@@ -11,7 +11,7 @@ class Goal
     this.pos = pos;
     
     semaforo = true;
-    ball_width = 50;
+    ball_width = displayWidth * 0.046296;
   
   }
   
@@ -21,7 +21,7 @@ class Goal
   {
     stroke(0);
     fill(0);
-    rect(pos.x, displayHeight - 10, ball_width, 10);
+    rect(pos.x, displayHeight - (displayWidth * 0.009259), ball_width, displayWidth * 0.009259);
   
   }
   
@@ -64,7 +64,7 @@ class Goal
   
   float get_Y()
   {
-    return displayHeight - 10;
+    return displayHeight - (displayWidth * 0.009259);
   
   }
  

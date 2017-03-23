@@ -62,6 +62,10 @@ class Level_2
     w1.applyForce();
     w1.draw(); 
     
+    fill(0);
+    textSize(26);
+    text(displayWidth+", "+displayHeight,displayHeight/2,displayWidth/2);
+    
     
     if(ball != null){
         

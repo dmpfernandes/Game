@@ -2,7 +2,7 @@ class Wall
 {
   
   PVector pos;
-  int wall_width;
+  float wall_width;
   boolean semaforo;
   
   
@@ -11,7 +11,7 @@ class Wall
     
     this.pos = pos;
     
-    wall_width = 50;
+    wall_width = displayWidth * 0.046296;
     semaforo = true;
   
   
@@ -25,7 +25,7 @@ class Wall
     //stroke(255,20,150);
     fill(255,20,150);
     
-    rect(pos.x, pos.y, wall_width, 10);
+    rect(pos.x, pos.y, wall_width, displayWidth * 0.009259);
   
   
   }

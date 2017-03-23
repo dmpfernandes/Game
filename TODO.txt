@@ -1,3 +1,7 @@
+"Optimizar o código e torná-lo abstracto"
+
+
+
 - Criar Menu Principal
 
 
@@ -7,11 +11,7 @@
 
 
 - Tamanho das pecas tem que ser em percentagem com o ecran
-
-
-
-
-- Optimizar o código e torná-lo abstracto
+ (Feito - Diogo)
 
 
 
