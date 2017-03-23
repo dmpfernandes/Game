@@ -36,11 +36,11 @@ class Wall
   {
     
     if(semaforo){ 
-      pos.add(new PVector(2,0));
+      pos.add(new PVector(displayWidth * 0.00185185,0));
     }
     
     else{
-      pos.add(new PVector(-2,0));
+      pos.add(new PVector(-(displayWidth * 0.00185185),0));
     }
     
     

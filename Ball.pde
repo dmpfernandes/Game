@@ -24,7 +24,7 @@ class Ball
   void applyForce()
   {
     
-    pos.add(new PVector (0,5));
+    pos.add(new PVector (0,displayWidth * 0.0046296));
     
   }
   
